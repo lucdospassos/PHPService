@@ -96,7 +96,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 <div class="container">
-    <h2>Cadastro de Cliente</h2>
+    <h2>Cadrastre seu cliente 👇</h2>
 
     <?php
     // Verifica se o cliente foi cadastrado e exibe a mensagem correspondente
