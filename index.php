@@ -91,7 +91,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $servername = "localhost";
     $username = "lucdospassos";
     $password = "@Deh99012#";
-    $dbname = "DB_ProgramaPHP";
+    $dbname = "db_php";
 
     // Conecta ao banco de dados
     $conn = new mysqli($servername, $username, $password, $dbname);
