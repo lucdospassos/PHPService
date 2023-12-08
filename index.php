@@ -89,9 +89,9 @@ $clienteCadastrado = false;
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Dados de conexão com o banco de dados
     $servername = "localhost";
-    $username = "lucdospassos";
-    $password = "@Deh99012#";
-    $dbname = "db_php";
+    $username = "admin";
+    $password = "Deh99012#";
+    $dbname = "DB_ProgramaPHP";
 
     // Conecta ao banco de dados
     $conn = new mysqli($servername, $username, $password, $dbname);
